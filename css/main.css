@@ -1,4 +1,31 @@
 @import url(../css/other.css);
+.spiderman {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out; }
+  .spiderman-container:hover .spiderman {
+    transform: rotate(180deg); }
+  .spiderman-container {
+    background-color: #dbbebe; }
+  .spiderman::before {
+    display: block;
+    content: url("../images/spiderman-icon.png"); }
+  .spiderman img {
+    transition: transform .8s ease-in-out; }
+    .spiderman img:hover {
+      transform: rotate(360deg); }
+  .spiderman .description {
+    color: darkred;
+    text-align: center;
+    margin-top: 1rem; }
+    .spiderman .description .header {
+      font-size: 2rem; }
+  .spiderman .description-link {
+    text-decoration: none; }
+    .spiderman .description-link::after {
+      content: url("../images/spiderman-ok.jpg");
+      display: inline-block;
+      vertical-align: middle; }
+
 .red {
   color: red; }
 
