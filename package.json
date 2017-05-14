@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/mehmettugrulsahin/most-userful-scss#readme",
   "devDependencies": {
-    "node-sass": "^4.5.2",
-    "nodemon": "^1.11.0"
+    "node-sass": "^4.5.2"
   }
 }

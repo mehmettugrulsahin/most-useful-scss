@@ -1,0 +1,17 @@
+.old-light-dark {
+  background-image: linear-gradient(#db6e57, #a83b24, #150705); }
+
+.wolverine {
+  text-align: center;
+  background-image: linear-gradient(rgba(168, 59, 36, 0.5), #a83b24, #914a3b); }
+  .wolverine:hover {
+    background-image: linear-gradient(rgba(36, 145, 168, 0.5), #2491a8, #3b8291); }
+    .wolverine:hover .wolverine-text {
+      color: rgba(233, 206, 9, 0.8); }
+  .wolverine-text {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    color: #be6c1b; }
+  .wolverine img {
+    margin-top: 3rem;
+    border-radius: 50%; }
