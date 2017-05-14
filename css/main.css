@@ -1,4 +1,24 @@
 @import url(../css/other.css);
+.women-of-the-marvel-universe {
+  content: "women-of-the-marvel-universe"; }
+
+.women-of-the-marvel-universe-text {
+  color: #989898; }
+
+.women-of-the-marvel-universe-cape {
+  background-color: #8465D9; }
+
+img {
+  border: 1px dotted green; }
+
+.elektra {
+  color: blue;
+  border: 1px solid purple;
+  font-size: 36px; }
+
+.fancy {
+  color: green; }
+
 .spiderman {
   padding: 1rem 2rem;
   transition: transform .8s ease-in-out; }
